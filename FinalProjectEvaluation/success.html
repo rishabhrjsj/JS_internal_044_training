@@ -1,0 +1,49 @@
+++<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Successful</title>
+    <style>
+        body { font-family: Arial; }
+        .container { width: 400px; border: 1px solid #ccc; padding: 20px; }
+        .success { color: green; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="success">Successfully Registered</h2>
+    <div id="details"></div>
+    <br>
+    <button id="backBtn">Back to Form</button>
+</div>
+
+<script>
+    function loadDetails() {
+        var params = new URLSearchParams(window.location.search);
+        if (!params || !params.has('name')) {
+            document.getElementById('details').innerText = 'No registration data found.';
+            return;
+        }
+        var data = {
+            name: params.get('name') || '',
+            email: params.get('email') || '',
+            gender: params.get('gender') || '',
+            course: params.get('course') || ''
+        };
+        var html = '';
+        html += '<p><strong>Name:</strong> ' + data.name + '</p>';
+        html += '<p><strong>Email:</strong> ' + data.email + '</p>';
+        html += '<p><strong>Gender:</strong> ' + data.gender + '</p>';
+        html += '<p><strong>Course:</strong> ' + data.course + '</p>';
+        document.getElementById('details').innerHTML = html;
+    }
+
+    document.getElementById('backBtn').addEventListener('click', function() {
+        window.location.href = 'task.html';
+    });
+
+    loadDetails();
+</script>
+
+</body>
+</html>

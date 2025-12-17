@@ -109,6 +109,7 @@
     </form>
 
     <div id="output"></div>
+        <button id="goSuccessBtn" style="display:none; margin-top:10px;">Go to Success Page</button>
 </div>
 
 <script>
@@ -167,6 +168,18 @@
             "<p>Email: " + email + "</p>" +
             "<p>Gender: " + gender + "</p>" +
             "<p>Course: " + course + "</p>";
+
+            var goBtn = document.getElementById('goSuccessBtn');
+            goBtn.style.display = 'inline-block';
+            // attach click handler that redirects with query params
+            goBtn.onclick = function() {
+                var params = new URLSearchParams();
+                params.set('name', name);
+                params.set('email', email);
+                params.set('gender', gender);
+                params.set('course', course);
+                window.location.href = 'success.html?' + params.toString();
+            };
     });
 </script>
 
