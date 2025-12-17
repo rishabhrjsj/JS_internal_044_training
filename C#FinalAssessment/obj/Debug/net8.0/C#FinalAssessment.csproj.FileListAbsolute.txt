@@ -1,0 +1,15 @@
+/workspaces/JS_internal_044_training/C#FinalAssessment/bin/Debug/net8.0/C#FinalAssessment
+/workspaces/JS_internal_044_training/C#FinalAssessment/bin/Debug/net8.0/C#FinalAssessment.deps.json
+/workspaces/JS_internal_044_training/C#FinalAssessment/bin/Debug/net8.0/C#FinalAssessment.runtimeconfig.json
+/workspaces/JS_internal_044_training/C#FinalAssessment/bin/Debug/net8.0/C#FinalAssessment.dll
+/workspaces/JS_internal_044_training/C#FinalAssessment/bin/Debug/net8.0/C#FinalAssessment.pdb
+/workspaces/JS_internal_044_training/C#FinalAssessment/obj/Debug/net8.0/C#FinalAssessment.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/JS_internal_044_training/C#FinalAssessment/obj/Debug/net8.0/C#FinalAssessment.AssemblyInfoInputs.cache
+/workspaces/JS_internal_044_training/C#FinalAssessment/obj/Debug/net8.0/C#FinalAssessment.AssemblyInfo.cs
+/workspaces/JS_internal_044_training/C#FinalAssessment/obj/Debug/net8.0/C#FinalAssessment.csproj.CoreCompileInputs.cache
+/workspaces/JS_internal_044_training/C#FinalAssessment/obj/Debug/net8.0/C#FinalAssessment.sourcelink.json
+/workspaces/JS_internal_044_training/C#FinalAssessment/obj/Debug/net8.0/C#FinalAssessment.dll
+/workspaces/JS_internal_044_training/C#FinalAssessment/obj/Debug/net8.0/refint/C#FinalAssessment.dll
+/workspaces/JS_internal_044_training/C#FinalAssessment/obj/Debug/net8.0/C#FinalAssessment.pdb
+/workspaces/JS_internal_044_training/C#FinalAssessment/obj/Debug/net8.0/C#FinalAssessment.genruntimeconfig.cache
+/workspaces/JS_internal_044_training/C#FinalAssessment/obj/Debug/net8.0/ref/C#FinalAssessment.dll
